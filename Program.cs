@@ -89,5 +89,6 @@ foreach (Candidatura c in exitoses)
     Console.WriteLine(c);
 }
 
+
 servei.TopEstudis( 5000);
 db.SaveChanges();

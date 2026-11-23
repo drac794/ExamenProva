@@ -80,11 +80,14 @@ public class CandidaturaService
             .OrderBy(c => c.CandidaturaID)
             .ToList();
     }
-    
+
     public void TopEstudis(int votsMinims)
     {
-        
-        
+        // List<Candidatura> estudis  = _context.Candidatura
+         //   .GroupBy()
+         //   .Where(c => )
+          //  .OrderBy(c => c.CandidaturaID)
+         //   .ToList();
     }
     
 }
